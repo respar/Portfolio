@@ -35,18 +35,64 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+a {
+  text-decoration: none; }
+
+body {
+  font-size: 16px;
+  font-family: sans-serif; }
+
+h1 {
+  font-size: 6.85373em;
+  line-height: 103.552px; }
+
+h2 {
+  font-size: 4.23592em;
+  line-height: 77.664px; }
+
+h3 {
+  font-size: 2.618em;
+  line-height: 51.776px; }
+
+h4 {
+  font-size: 1.618em;
+  line-height: 25.888px; }
+
+h5 {
+  font-size: 1em; }
+
+h6 {
+  font-size: 0.618em; }
+
+li {
+  margin-bottom: 0.38195em; }
+
+nav ul {
+  margin: 1em; }
+
+nav ul li {
+  display: inline-block; }
+
+nav ul li {
+  padding: 0.5em;
+  margin: 1em;
+  background-color: #000; }
+
+nav ul li a {
+  padding: 1em;
+  display: inline-block;
+  color: #fff; }
+
+/* Nav Experiment */
 .btn {
   display: inline-block;
   padding: 0.809em;
   border: 0; }
 
-.btn.btn--primary {
-  background-color: #2059ca;
+.bg--primary {
+  background-color: #008b76;
   color: #fff; }
-  .btn.btn--primary:hover {
-    background-color: #5383e4; }
-
-body {
-  font-size: 16px; }
+  .bg--primary:hover {
+    background-color: #00d8b7; }
 
 /*# sourceMappingURL=styles.css.map */

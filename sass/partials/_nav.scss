@@ -1,0 +1,62 @@
+nav ul{
+	margin: 1em;
+}
+nav ul li {
+	display: inline-block;
+}
+nav ul li {
+	padding: 0.5em;
+	margin: 1em;
+	background-color: $black;
+}
+nav ul li a {
+	padding: 1em;
+	display: inline-block;
+	color: $white;
+}
+
+
+
+
+
+
+
+/* Nav Experiment */
+// nav ul li:nth-child(1){
+// 	transform: skew(-20deg) rotate(-10deg);
+// 	transition: 100ms ease-out;
+// 	&:hover{
+// 		transform: skew(-80deg) rotate(-20deg);
+// 	}
+// }
+// nav ul li:nth-child(1) a{
+// 	background-color: adjust-hue($primary-color--lt, 72%);
+// 	transform: skew(-20deg) rotate(-10deg);
+// }
+// nav ul li:nth-child(2){
+// 	transform: skew(-20deg) rotate(20deg);
+// 	transition: 100ms ease-out;
+// 	border-bottom-right-radius:15px;
+// 	border-top-right-radius:20px;
+// 	border-top-left-radius:8px;
+// 	&:hover{
+// 		transform: skew(10deg) rotate(20deg);	
+// 	}
+// 	&:hover a{
+// 		transform: skew(180deg) rotate(-30deg);
+// 	}
+// }
+// nav ul li:nth-child(2) a{
+// 	background-color: adjust-hue($primary-color--lt, 144%);
+// 	transform: skew(200deg) rotate(-10deg);
+// 	transition: 100ms ease-out;
+// 	border-bottom-right-radius:8px;
+// 	border-top-right-radius:15px;
+// 	border-top-left-radius:5px;
+// }
+// nav ul li:nth-child(3) a{
+// 	background-color: adjust-hue($primary-color--lt, 216%);
+// }
+// nav ul li:nth-child(4) a{
+// 	background-color: adjust-hue($primary-color--lt, 288%);
+// }

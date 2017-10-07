@@ -1,3 +1,27 @@
 body{
 	font-size: $base-font-size;
+	font-family: sans-serif;
+}
+
+h1{
+	font-size: (($magic-number) * ($magic-number)) * ($magic-number + 1em);
+	line-height: $magic-number * ($base-font-size * 4);
+}
+h2 {
+	font-size: ($magic-number + 1em) * $magic-number;
+	line-height: $magic-number * ($base-font-size * 3);
+}
+h3 {
+	font-size: $magic-number + 1em;
+	line-height: $magic-number * ($base-font-size * 2);
+}
+h4 {
+	font-size: $magic-number * 1em;
+	line-height: $magic-number * ($base-font-size * 1);
+}
+h5 {
+	font-size: 1em;
+}
+h6 {
+	font-size: $magic-number - 1em;
 }
