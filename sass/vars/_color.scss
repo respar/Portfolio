@@ -1,1 +1,5 @@
 $primary-color: #2059ca;
+$primary-color--lt: lighten($primary-color, 15%);
+$primary-color--dk: darken($primary-color, 15%);
+$white: #fff;
+$black: #000;

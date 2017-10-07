@@ -1,8 +1,12 @@
 .btn{
 	display: inline-block;
 	padding: 0.5em * $magic-number;
+	border: 0;
 }
 .btn.btn--primary{
 	background-color: $primary-color;
-	color: #fff;
+	color: $white;
+	&:hover{
+		background-color: $primary-color--lt;
+	}
 }
